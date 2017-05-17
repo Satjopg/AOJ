@@ -1,0 +1,30 @@
+A x
+D x private
+D x
+A o
+B x 丸め誤差, char
+B o
+C o
+B o static
+D x オーバーライド, オーバーロード
+D x this
+C o
+D o
+A o abstract
+A o
+C x Interface
+A o
+B o
+A x　StringBuffer > String
+D o
+B o
+D x よく読め
+A x switch(評価できない型) - 整数じゃないとだめ(整数でもlongはダメ！)
+D x
+D x Exception
+C o
+A o
+C x nableインターフェイス
+D o
+C o
+D o

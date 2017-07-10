@@ -1,6 +1,5 @@
 public class EightQueen {
 
-	private static int queen = 0;
 	private static boolean[][] board = new boolean[8][8];
 
 	private static void createBoard(boolean[][] board) {
@@ -16,7 +15,7 @@ public class EightQueen {
 			return queen;
 		}
 		int return_num = 0;
-		for(int y = 0;y < board.length; y++) {
+		for(int y = 0;y < 8; y++) {
 			if(isPut(board, queen, y)) {
 				board[y][queen] = true;
 				return_num = solveEightQueen(board, queen+1);
@@ -73,7 +72,7 @@ public class EightQueen {
 
 	public static void main(String[] args) {
 		createBoard(board);
-		solveEightQueen(board, queen);
+		solveEightQueen(board, 0);
 		displayBoard(board);
 	}
 }
